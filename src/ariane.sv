@@ -824,7 +824,7 @@ module ariane import ariane_pkg::*; #(
 `endif
 
   initial begin
-    f = $fopen("trace_hart_00.dasm", "w");
+    f = $fopen("dump/trace_hart_00.dasm", "w");
   end
 
 `ifdef DROMAJO
